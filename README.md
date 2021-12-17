@@ -1,4 +1,5 @@
 # Chicken! Triangulate!
+
 A very _very_ basic Delaunay triangulator in pure scheme
 Follows the algoritm of ![paul burke](http://paulbourke.net/papers/triangulate/)
 
@@ -13,9 +14,12 @@ To just triangulate and get a list of the triangles use
 (triangulate vertex-vector)
 
 # Requirements
+
 	srfi-133 (for vector ops)
 	srfi-1   (for filter)
         sdl2     (for graphics)
+
+# Triangles!
 
 ![some](https://github.com/ramrunner/chicken-triangulate/blob/main/img/10p.png?raw=true)
 ![triangles](https://github.com/ramrunner/chicken-triangulate/blob/main/img/50p.png?raw=true)
