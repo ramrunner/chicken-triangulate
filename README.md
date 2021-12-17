@@ -17,7 +17,7 @@ To just triangulate and get a list of the triangles use
 
 	srfi-133 (for vector ops)
 	srfi-1   (for filter)
-        sdl2     (for graphics)
+	sdl2     (for graphics)
 
 # Triangles!
 
